@@ -88007,7 +88007,7 @@ Xm(a,b){var s=0,r=A.M(t.H),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e
 var $async$vr=A.N(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:j=$.He().aN(0,"EMAIL_LOGGING_URL")
 i=t.N
-h=A.ao(["Content-Type","application/json","Connection","keep-alive","Access-Control-Allow-Origin","*"],i,i)
+h=A.ao(["Content-Type","application/json","Access-Control-Allow-Origin","https://mingadinga.github.io/shout_out_to_2024"],i,i)
 g=B.a2.hd(A.ao(["email",a],i,i),null)
 f=0
 i=t.Pu
