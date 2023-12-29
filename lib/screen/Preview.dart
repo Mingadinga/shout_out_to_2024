@@ -259,8 +259,8 @@ class _EmailInputFieldState extends State<EmailInputField> {
     var url = dotenv.get('EMAIL_LOGGING_URL');
     final headers = {
       'Content-Type': 'application/json',
-      'Connection': 'keep-alive',
-      'Access-Control-Allow-Origin': '*'
+      'Access-Control-Allow-Origin':
+          'https://mingadinga.github.io/shout_out_to_2024'
     };
     final body = jsonEncode({'email': email});
 
