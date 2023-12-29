@@ -77,7 +77,7 @@ class TwitterShareIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return SnsShareIconWidget(
       icon: SvgPicture.asset(
-        'icons/twitter-alt.svg',
+        'assets/icons/twitter-alt.svg',
         width: 24,
         height: 24,
         color: iconColor,
@@ -141,7 +141,7 @@ class KakaoShare extends StatelessWidget {
   Widget build(BuildContext context) {
     return SnsShareIconWidget(
       icon: SvgPicture.asset(
-        'icons/comment.svg',
+        'assets/icons/comment.svg',
         width: 24,
         height: 24,
         color: iconColor,

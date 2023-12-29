@@ -51,9 +51,9 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/icons/
-    - assets/fonts/
-    - assets/images/
+    - assets/icons/comment.svg
+    - assets/icons/twitter-alt.svg
+    - assets/images/dailytrackerpreview.png
     - .env
 
   fonts:

@@ -51,7 +51,8 @@ class PreviewScreen extends StatelessWidget {
               _DelayedFadeInWidget(
                 delay: const Duration(seconds: 1),
                 child: WithPaddingWidget(
-                    child: Image.asset('images/dailytrackerpreview.png')),
+                    child:
+                        Image.asset('assets/images/dailytrackerpreview.png')),
               ),
               const _DelayedFadeInText(
                 delay: Duration(seconds: 3),
