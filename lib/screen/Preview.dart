@@ -260,7 +260,8 @@ class _EmailInputFieldState extends State<EmailInputField> {
     final headers = {
       'Content-Type': 'application/json',
       'Access-Control-Allow-Origin':
-          'https://mingadinga.github.io/shout_out_to_2024'
+          'https://mingadinga.github.io/shout_out_to_2024',
+      'credentials': 'include',
     };
     final body = jsonEncode({'email': email});
 
