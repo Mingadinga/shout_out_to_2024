@@ -29,7 +29,7 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>CFBundleURLTypes</key>
-	<array>
+	<!-- <array>
 		<dict>
 			<key>CFBundleURLName</key>
 			<string>com.example.shoutOutTo2024</string>
@@ -38,6 +38,6 @@
 			<string>kakao020c8175480318452e496ff782fbef89</string>
 			</array>
 		</dict>
-	</array>
+	</array> -->
 </dict>
 </plist>
