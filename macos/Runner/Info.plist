@@ -28,5 +28,16 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.example.myapp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+			<string>kakao020c8175480318452e496ff782fbef89</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

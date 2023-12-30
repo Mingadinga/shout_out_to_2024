@@ -165,13 +165,17 @@ class KakaoShare extends StatelessWidget {
             Uri uri =
                 await ShareClient.instance.shareDefault(template: defaultText);
             await ShareClient.instance.launchKakaoTalk(uri);
-          } catch (error) {}
+          } catch (error) {
+            print(error);
+          }
         } else {
           try {
             Uri shareUrl = await WebSharerClient.instance
                 .makeDefaultUrl(template: defaultText);
             await launchBrowserTab(shareUrl, popupOpen: true);
-          } catch (error) {}
+          } catch (error) {
+            print(error);
+          }
         }
       },
     );
