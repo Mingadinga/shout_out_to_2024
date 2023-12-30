@@ -31,9 +31,9 @@ class ResultShareScreen extends StatelessWidget {
               width: 300,
               child: Column(
                 children: [
-                  ShareButton(
-                    text: result + shareMent + shareLink,
-                  ),
+                  // ShareButton(
+                  //   text: result + shareMent + shareLink,
+                  // ),
                   const Padding(
                     padding: EdgeInsets.symmetric(vertical: 20),
                     child: Text(
@@ -42,10 +42,11 @@ class ResultShareScreen extends StatelessWidget {
                     ),
                   ),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       CopyToClipboardIcon(text: result + shareMent + shareLink),
-                      KakaoShare(result: result, shareLink: shareLink),
+                      const SizedBox(width: 40),
+                      // KakaoShare(result: result, shareLink: shareLink),
                       // FacebookShareIcon(
                       //     result: result + shareMent, shareLink: shareLink),
                       TwitterShareIcon(
