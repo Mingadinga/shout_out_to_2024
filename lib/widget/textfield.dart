@@ -78,7 +78,7 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
               ? [FilteringTextInputFormatter.allow(RegExp(r'[a-zA-Z0-9@.]+'))]
               : null,
           keyboardType:
-              isEmailInput ? TextInputType.emailAddress : TextInputType.none,
+              isEmailInput ? TextInputType.emailAddress : TextInputType.text,
         ),
       ),
     );
